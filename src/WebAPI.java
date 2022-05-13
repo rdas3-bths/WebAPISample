@@ -9,7 +9,8 @@ public class WebAPI {
 
     public static void main(String[] args)
     {
-        String APIkey = "301995e2246067ea90f17ab07e41cdf6";
+        String APIkey = "Enter_your_API_Key_Here";
+        // GET YOUR OWN API KEY!
 
         String urlNowPlaying = "https://api.themoviedb.org/3/movie/now_playing?api_key=" + APIkey + "&language=en-US";
         makeAPICall(urlNowPlaying);
