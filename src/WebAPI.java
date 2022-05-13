@@ -5,9 +5,6 @@ import java.net.http.HttpResponse;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
-
 public class WebAPI {
 
     public static void main(String[] args)
@@ -54,8 +51,8 @@ public class WebAPI {
     }
 
 
-
-    public static void parse(String str)
+    // JSON Parsing coming soon!
+    /*public static void parse(String str)
     {
         try {
             JSONObject json = new JSONObject(str);
@@ -79,5 +76,5 @@ public class WebAPI {
         // WHAT GENRE DO YOU WANT TO SEE ALL MOVIES FOR?
 
         // MAKE A NEW REQUEST!!!
-    }
+    }*/
 }
